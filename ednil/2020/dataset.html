@@ -52,28 +52,30 @@
 
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
-      <li class="nav-item">
-        <a class="nav-link" href="index.html">Overview<span class="sr-only">(current)</span></a>
+     <li class="nav-item">
+        <a class="nav-link" href="index.html">Introduction<span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="call_for_participation.html">Call for Participation</a>
+        <a class="nav-link" href="overview_of_task.html">Overview of Task</a>
       </li>
+      <li class="nav-item ">
+        <a class="nav-link" href="evaluation.html">Evaluation</a>
+      </li>
+     
+        <li class="nav-item active">
+        <a class="nav-link" href="dataset.html">Datasets</a>
+      </li>
+    
       <li class="nav-item">
         <a class="nav-link" href="registration.html">Registration</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="important_dates.html">Important dates</a>
       </li>
-      <li class="nav-item">
+      <li class="nav-item ">
         <a class="nav-link" href="organizers.html">Organizers</a>
       </li>
-      <li class="nav-item active">
-        <a class="nav-link" href="dataset.html">Datasets</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="proceeding.html">Proceedings</a>
-      </li>
-      
+     
       <!-- <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           Archives
@@ -102,7 +104,13 @@
 		<div class="col-sm-10">
 			<div class="table-responsive">
 				<p>
-					TBD
+			<p>The dataset is annotated at the word level. Each word is enclosed in &lt;W&gt; tag. These &lt;W&gt; tags are enclosed together in &lt;P&gt; tags. Words which are related to any of the events, reason, place, casualties, time are enclosed in separate tags. The tags are listed below</p>
+<p>&lt;MANMADE_EVENT TYPE = &ldquo;Subtype&rdquo;&gt;: This tag contains the words that are related to a manmade disaster. The TYPE contain the subtypes that have been mentioned for manmade disaster in Task 2</p>
+<p>&lt;NATURAL_EVENT TYPE = &ldquo;Subtype&rdquo;&gt;: This tag contains the words that are related to a natural disaster. The TYPE contain the subtypes that have been mentioned for natural disaster in Task 2</p>
+<p>&lt;REASON-ARG&gt;: This tag contains the words that are the reason due to which the event has occurred</p>
+<p>&lt;TIME-ARG&gt;: This tag contains the words that are time at which the event has occurred</p>
+<p>&lt;CASUALTIES-ARG&gt;: This tag contains the words that are casualties that have occurred due to an event</p>
+<p>&lt;PLACE_ARG&gt;: This tag contains the words that is the place at which the event has occurred</p>
 				</p>
 
 				<!-- <table class="table table-hover table-bordered">
